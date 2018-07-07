@@ -2,7 +2,7 @@
   "name": "electron-next-typescript",
   "version": "1.0.0",
   "description": "A minimal Electron application SSR",
-  "main": "app/src/main-process/main.jsx",
+  "main": "app/src/main-process/main.ts",
   "scripts": {
     "start": "electron ."
   },
@@ -26,6 +26,7 @@
     "electron-debug": "^2.0.0",
     "electron-is-dev": "^0.3.0",
     "electron-next": "^3.1.4",
+    "electron-window-state": "^4.1.1",
     "fork-ts-checker-webpack-plugin": "^0.4.2",
     "next": "^6.1.1",
     "react": "^16.4.1",
