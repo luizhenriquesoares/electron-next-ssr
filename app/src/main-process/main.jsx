@@ -9,7 +9,7 @@ const { resolve } = require('app-root-path')
 
 // Prepare the renderer once the app is ready
 app.on('ready', async () => {
-  await prepareNext('./app/src')
+  await prepareNext('./app/src/ui')
 
   const mainWindow = new BrowserWindow({
     width: 800,

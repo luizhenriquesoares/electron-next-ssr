@@ -3,7 +3,7 @@ __NEXT_REGISTER_PAGE('/start', function() {
           var comp =
       webpackJsonp([4],{
 
-/***/ "../../node_modules/webpack/buildin/harmony-module.js":
+/***/ "../../../node_modules/webpack/buildin/harmony-module.js":
 /***/ (function(module, exports) {
 
 module.exports = function(originalModule) {
@@ -39,9 +39,9 @@ module.exports = function(originalModule) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("../../node_modules/react/index.js");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("../../../node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\htdocs\\electron-quick-start\\app\\src\\pages\\start.jsx";
+var _jsxFileName = "C:\\htdocs\\electron-quick-start\\app\\src\\ui\\pages\\start.jsx";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
@@ -69,7 +69,7 @@ var _jsxFileName = "C:\\htdocs\\electron-quick-start\\app\\src\\pages\\start.jsx
       }
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/start")
   
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("../../node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("../../../node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
