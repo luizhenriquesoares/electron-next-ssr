@@ -9,13 +9,17 @@ const { resolve } = require('app-root-path')
 
 require('electron-debug')()
 
+//let mainWindow = AppWindow
+
 // Prepare the renderer once the app is ready
 app.on('ready', async () => {
   await prepareNext('./app/src/ui')
 
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 960,
+    height: 660,
+    backgroundColor: '#fff',
+    acceptFirstMouse: true,
   })
 
   const devPath = 'http://localhost:8000/start'
