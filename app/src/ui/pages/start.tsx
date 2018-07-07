@@ -22,10 +22,12 @@ class Start extends React.Component<IStartProps, IStartState> {
     this.state = {
       updatedState: false,
     }
+    console.log('contructor', this.state.updatedState)
   }
 
   public DispatchButton = () => {
     this.setState({ updatedState: true })
+    console.log('DispatchButton', this.state.updatedState)
   }
 
   public render() {

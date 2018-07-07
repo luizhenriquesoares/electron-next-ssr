@@ -7,6 +7,8 @@ const isDev = require('electron-is-dev')
 const prepareNext = require('electron-next')
 const { resolve } = require('app-root-path')
 
+require('electron-debug')()
+
 // Prepare the renderer once the app is ready
 app.on('ready', async () => {
   await prepareNext('./app/src/ui')
